@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult sobre()
+        {
+            ViewBag.Message = "Sua página sobre";
+
+            return View();
+        }
     }
 }
